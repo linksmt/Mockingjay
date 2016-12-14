@@ -7,22 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2705946B1C4FA7A6002A3AA9 /* MockingjayXCTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2705946A1C4FA7A6002A3AA9 /* MockingjayXCTestTests.swift */; };
 		274367921AA27A7C0030C97B /* Mockingjay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274367911AA27A7C0030C97B /* Mockingjay.swift */; };
 		274367941AA27AAD0030C97B /* MockingjayProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274367931AA27AAD0030C97B /* MockingjayProtocol.swift */; };
-		274367961AA27B170030C97B /* MockingjayProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274367951AA27B170030C97B /* MockingjayProtocolTests.swift */; };
 		274367981AA28AFC0030C97B /* Matchers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274367971AA28AFC0030C97B /* Matchers.swift */; };
-		2743679A1AA28B0D0030C97B /* MatcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274367991AA28B0D0030C97B /* MatcherTests.swift */; };
 		274367AE1AA29AED0030C97B /* URITemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 274367A91AA29ADA0030C97B /* URITemplate.framework */; };
 		274367B01AA29E510030C97B /* Builders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274367AF1AA29E510030C97B /* Builders.swift */; };
-		274367B21AA29E620030C97B /* BuildersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274367B11AA29E620030C97B /* BuildersTests.swift */; };
 		274367C61AA35FD00030C97B /* NSURLSessionConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274367C51AA35FD00030C97B /* NSURLSessionConfiguration.swift */; };
 		2746CDC51A702F7800719B66 /* Mockingjay.h in Headers */ = {isa = PBXBuildFile; fileRef = 2746CDC41A702F7800719B66 /* Mockingjay.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2746CDCB1A702F7800719B66 /* Mockingjay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2746CDBF1A702F7800719B66 /* Mockingjay.framework */; };
-		2746CDD21A702F7800719B66 /* MockingjayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2746CDD11A702F7800719B66 /* MockingjayTests.swift */; };
 		27703A631CE2560600194732 /* MockingjayURLSessionConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 27703A621CE2560600194732 /* MockingjayURLSessionConfiguration.m */; };
-		444EA6091C5261DE000C3A9F /* MockingjayAsyncProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444EA6081C5261DE000C3A9F /* MockingjayAsyncProtocolTests.swift */; };
-		444EA60C1C52666D000C3A9F /* TestAudio.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 444EA60B1C52666D000C3A9F /* TestAudio.m4a */; };
 		A1E3C5701AA4EA130069C998 /* XCTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2743679B1AA28D4D0030C97B /* XCTest.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,13 +40,6 @@
 			remoteGlobalIDString = 77356D7F1A253325002822CF;
 			remoteInfo = URITemplate;
 		};
-		2746CDCC1A702F7800719B66 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2746CDB61A702F7800719B66 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2746CDBE1A702F7800719B66;
-			remoteInfo = Mockingjay;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -72,7 +57,6 @@
 		2746CDBF1A702F7800719B66 /* Mockingjay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mockingjay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2746CDC31A702F7800719B66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2746CDC41A702F7800719B66 /* Mockingjay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mockingjay.h; sourceTree = "<group>"; };
-		2746CDCA1A702F7800719B66 /* MockingjayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockingjayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2746CDD01A702F7800719B66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2746CDD11A702F7800719B66 /* MockingjayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockingjayTests.swift; sourceTree = "<group>"; };
 		2746CDDC1A702FC100719B66 /* UniversalFramework_Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = UniversalFramework_Base.xcconfig; sourceTree = "<group>"; };
@@ -89,14 +73,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				274367AE1AA29AED0030C97B /* URITemplate.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2746CDC71A702F7800719B66 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2746CDCB1A702F7800719B66 /* Mockingjay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,7 +105,6 @@
 			isa = PBXGroup;
 			children = (
 				2746CDBF1A702F7800719B66 /* Mockingjay.framework */,
-				2746CDCA1A702F7800719B66 /* MockingjayTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -232,24 +207,6 @@
 			productReference = 2746CDBF1A702F7800719B66 /* Mockingjay.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		2746CDC91A702F7800719B66 /* MockingjayTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2746CDD81A702F7800719B66 /* Build configuration list for PBXNativeTarget "MockingjayTests" */;
-			buildPhases = (
-				2746CDC61A702F7800719B66 /* Sources */,
-				2746CDC71A702F7800719B66 /* Frameworks */,
-				2746CDC81A702F7800719B66 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2746CDCD1A702F7800719B66 /* PBXTargetDependency */,
-			);
-			name = MockingjayTests;
-			productName = MockingjayTests;
-			productReference = 2746CDCA1A702F7800719B66 /* MockingjayTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -262,10 +219,6 @@
 				ORGANIZATIONNAME = Cocode;
 				TargetAttributes = {
 					2746CDBE1A702F7800719B66 = {
-						CreatedOnToolsVersion = 6.1.1;
-						LastSwiftMigration = 0800;
-					};
-					2746CDC91A702F7800719B66 = {
 						CreatedOnToolsVersion = 6.1.1;
 						LastSwiftMigration = 0800;
 					};
@@ -290,7 +243,6 @@
 			projectRoot = "";
 			targets = (
 				2746CDBE1A702F7800719B66 /* Mockingjay */,
-				2746CDC91A702F7800719B66 /* MockingjayTests */,
 			);
 		};
 /* End PBXProject section */
@@ -320,14 +272,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2746CDC81A702F7800719B66 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				444EA60C1C52666D000C3A9F /* TestAudio.m4a in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -345,19 +289,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2746CDC61A702F7800719B66 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2743679A1AA28B0D0030C97B /* MatcherTests.swift in Sources */,
-				274367961AA27B170030C97B /* MockingjayProtocolTests.swift in Sources */,
-				444EA6091C5261DE000C3A9F /* MockingjayAsyncProtocolTests.swift in Sources */,
-				274367B21AA29E620030C97B /* BuildersTests.swift in Sources */,
-				2705946B1C4FA7A6002A3AA9 /* MockingjayXCTestTests.swift in Sources */,
-				2746CDD21A702F7800719B66 /* MockingjayTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -365,11 +296,6 @@
 			isa = PBXTargetDependency;
 			name = URITemplate;
 			targetProxy = 274367AC1AA29AE70030C97B /* PBXContainerItemProxy */;
-		};
-		2746CDCD1A702F7800719B66 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2746CDBE1A702F7800719B66 /* Mockingjay */;
-			targetProxy = 2746CDCC1A702F7800719B66 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -513,34 +439,6 @@
 			};
 			name = Release;
 		};
-		2746CDD91A702F7800719B66 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2746CDDE1A702FC100719B66 /* UniversalFramework_Test.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = MockingjayTests/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocode.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		2746CDDA1A702F7800719B66 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2746CDDE1A702FC100719B66 /* UniversalFramework_Test.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = MockingjayTests/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocode.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -558,15 +456,6 @@
 			buildConfigurations = (
 				2746CDD61A702F7800719B66 /* Debug */,
 				2746CDD71A702F7800719B66 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2746CDD81A702F7800719B66 /* Build configuration list for PBXNativeTarget "MockingjayTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2746CDD91A702F7800719B66 /* Debug */,
-				2746CDDA1A702F7800719B66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
